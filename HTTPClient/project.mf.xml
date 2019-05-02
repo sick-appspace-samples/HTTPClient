@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="HTTPClient">
+        <crown name="HTTPClientSample">
+            <desc>user script</desc>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">2.5.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="copy-protected">false</meta>
+        <meta key="read-protected">false</meta>
+        <entry path="resources">
+            <file type="application">cacert.pem</file>
+        </entry>
+        <entry path="scripts" default="HTTPClientSample.lua">
+            <file type="text/x-lua">HTTPClientSample.lua</file>
+        </entry>
+    </application>
+</manifest>
