@@ -5,6 +5,7 @@ local httpServer = 'http://www.spiegel.de'
 local httpsServer = 'https://www.sick.com/de/de'
 local client
 
+---@param url string
 local function performHttpGetRequest(url)
   -- Create HTTPClient handle
   client = HTTPClient.create()
